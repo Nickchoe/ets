@@ -1,0 +1,37 @@
+// Variables
+$website-width: 1280px;
+//$main-color: #ffbc00;
+$main-color: #36b3a8;
+$light-color: #f4f4f4;
+$medium-color: #ccc;
+$dark-color: #333;
+
+// Brad's
+:root {
+    --primary-color: #c72727;
+    --secondary-color: #f99500;
+    --light-color: #f3f3f3;
+    --dark-color: #333;
+    --primary-text:  #f99500;
+    --max-width: 1100px;
+  }
+
+  .category {
+    --sports-color: #f99500;
+    --ent-color: #a66bbe;
+    --tech-color: #009cff;
+  }
+  
+
+$bg-image: url('../img/showcase.jpg');
+
+// Set Text Color
+@function set-text-color($color) {
+    @if (lightness($color)> 50) {
+        @return #000;
+
+    } @else {
+        @return #fff;
+    }
+    
+}
