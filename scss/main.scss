@@ -52,6 +52,16 @@
   align-items: center;
   height: 34vh;
 }
+#gallery {
+  display: grid;
+  grid-template-columns: repeat (3, 1fr);
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
 
 #showcase .showcase-content {
   z-index: 1;
@@ -1108,5 +1118,5 @@ section.beating-heart h2::after {
       }
 }
 
-/* I LOVE PHOTOGRAPHY ANIMATION END */
+ // I LOVE PHOTOGRAPHY ANIMATION END ;
 

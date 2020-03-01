@@ -161,6 +161,16 @@ input[class^='btn-']:hover {
   align-items: center;
   height: 34vh; }
 
+#gallery {
+  display: grid;
+  grid-template-columns: repeat 3, 1fr;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden; }
+
 #showcase .showcase-content {
   z-index: 1; }
 
@@ -872,5 +882,3 @@ section.beating-heart h2::after {
   100% {
     -webkit-transform: scale(1);
     transform: scale(1); } }
-
-/* I LOVE PHOTOGRAPHY ANIMATION END */
