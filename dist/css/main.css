@@ -618,8 +618,8 @@ img {
 #contact-b .image {
   height: auto;
   display: block;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   align-items: center; }
 
 #contact-c h1 {
@@ -829,7 +829,9 @@ section.beating-heart {
   -ms-flex-align: center;
   align-items: center;
   -ms-flex-item-align: center;
-  align-self: center; }
+  align-self: center;
+  margin-top: 3px;
+  margin-bottom: 3px; }
 
 section.beating-heart span {
   font-size: 70px;
