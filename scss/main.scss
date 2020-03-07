@@ -1,8 +1,72 @@
 @import 'config';
 @import 'utilities';
 
+ /* Dropdown Button */
+ .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
 /* General Styles */
 /* Utility */
+
+.gallery1 {
+  display: grid;
+  grid-template-columns: repeat (3, 1fr);
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+#gallery2 {
+  display: grid;
+  grid-template-columns: repeat (3, 1fr);
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
 .text-primary {
   color: #93cb52;
   
@@ -89,16 +153,12 @@
   align-items: center;
   height: 37vh;
 }
-#gallery {
+/*.gallery {
   display: grid;
-  grid-template-columns: repeat (3, 1fr);
-  justify-content: center;
-  align-items: center;
-  max-width: 300px;
-  padding: 0 1.5rem;
-  margin: auto;
-  overflow: hidden;
-}
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 1.5rem;
+      text-align: center;
+}*/
 
 #showcase .showcase-content {
   z-index: 1;
@@ -213,14 +273,7 @@
   width: 85%;
   text-align: center;
 }
-/*
-.btn-block {
-  display: block;
-  width: 100%;
-  text-align: center;
-  
-}
-*/
+
 
 .l-heading {
   font-size: 2rem;
@@ -273,6 +326,7 @@
 .bg-primary {
   background: var(--primary-color);
   color: #fff;
+  margin-top: 17rem;
 }
 .bg-secondary {
   background: var(--secondary-color);
@@ -394,7 +448,19 @@ img {
  &-b {
    .stats {
        display: grid;
-       grid-template-columns: repeat(4, 1fr);
+       grid-template-columns: repeat(3, 1fr);
+       grid-gap: 1.5rem;
+       margin-right: 2rem;
+       margin-left: 2rem;
+       .bio-image {
+  
+        width: 200px;
+       height: 200px;
+        border-radius: 50%;
+      
+       align-items: center;
+       
+       }
 
        li {
            line-height: 2;
@@ -408,13 +474,13 @@ img {
            }
        }
        div {
-           padding: 3rem 0;
+           padding: 3rem 0rem;
 
            &:nth-child(odd){
                background: $light-color;
            }
            &:nth-child(even){
-               background: $medium-color;
+               background: $light-color;
            }
        }
    }  
@@ -526,6 +592,34 @@ img {
 
 }
 
+#about-a1 {
+  &.about-info {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+  text-align: center;
+}
+.bio-image {
+  
+  width: 300px;
+ height: 300px;
+  border-radius: 50%;
+margin-right: 0.5rem;
+ align-items: center;
+ margin-left: 5rem;
+
+
+}
+
+.bio {
+  
+  text-align: center;
+  padding: 0.8rem;
+  border-top: 3px solid $main-color;
+  
+}
+  
+}
 // About Section
 #about {
     &-a {
@@ -571,6 +665,14 @@ img {
         color: $main-color;
         margin: 1rem;
     }
+    .about-a1 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 1.5rem;
+      text-align: center;
+  }
+    
+      
 }
 // About B
 &-b {
