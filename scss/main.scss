@@ -182,7 +182,9 @@
   grid-gap: 1rem;
 }
 
+
 #home-articles .articles-container > *:first-child,
+
 #home-articles .articles-container > *:last-child {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -232,7 +234,7 @@
   margin-bottom: 0.5rem;
 }
 
-//.category-sports { background: var(--sports-color) }
+.category-sports { background: var(--sports-color) }
 .category-ent { background: var(--ent-color) }
 .category-tech { background: var(--tech-color) }
 
@@ -442,6 +444,15 @@ img {
             color: $main-color;
             padding-bottom: 0.4rem;
         }
+        .bio-image {
+  
+          width: 200px;
+         height: 200px;
+          border-radius: 50%;
+        
+         align-items: center;
+         
+         }
        }
  }
  // Home Section B

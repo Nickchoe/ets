@@ -331,6 +331,9 @@ input[class^='btn-']:hover {
   border-radius: 15px;
   margin-bottom: 0.5rem; }
 
+.category-sports {
+  background: var(--sports-color); }
+
 .category-ent {
   background: var(--ent-color); }
 
@@ -493,6 +496,11 @@ img {
   #home-a .specials .fas {
     color: #36b3a8;
     padding-bottom: 0.4rem; }
+  #home-a .specials .bio-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-items: center; }
 
 #home-b .stats {
   display: grid;
