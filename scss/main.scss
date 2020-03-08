@@ -8,6 +8,7 @@
 // popular books 
 .popular-video {
   position: relative;
+  
 }
 
 .video-container {
@@ -21,7 +22,7 @@
 }
 
 .bg-video {
-  object-fit: cover;
+  object-fit: contain;
 }
 
 // end of popular books

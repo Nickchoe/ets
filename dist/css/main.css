@@ -124,7 +124,9 @@ input[class^='btn-']:hover {
 /* General Styles */
 /* Utility */
 .popular-video {
-  position: relative; }
+  position: relative; 
+  
+}
 
 .video-container {
   position: absolute;
@@ -136,7 +138,8 @@ input[class^='btn-']:hover {
   opacity: .4; }
 
 .bg-video {
-  object-fit: cover; }
+  object-fit: stretch !important; 
+}
 
 /* Showcase newsgrid*/
 #showcase {
@@ -361,7 +364,7 @@ img {
     padding: 1rem 1.5rem; }
   #main-nav a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
