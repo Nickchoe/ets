@@ -168,25 +168,41 @@ input[class^='btn-']:hover {
   border-radius: 15px;
   margin-bottom: 0.5rem; }
 
+.v-container {
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  height: 560px;
+  opacity: 0.6; }
+
+#glass {
+  margin-left: -620px;
+  margin-top: -100px; }
+
 /* Dropdown Button */
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: transparent;
   color: white;
   padding: 16px;
   font-size: 16px;
-  border: none; }
+  border: none;
+  color: #fff;
+  font-family: 'Dosis', sans-serif;
+  text-transform: uppercase;
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+  transition: border-color 0.5s; }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-  position: relative;
   display: inline-block; }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
+  background-color: #000;
+  min-width: 60px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1; }
 
@@ -199,15 +215,11 @@ input[class^='btn-']:hover {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd; }
+  background-color: red; }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block; }
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41; }
 
 /* General Styles */
 /* Utility */
@@ -301,9 +313,6 @@ input[class^='btn-']:hover {
   grid-gap: 1rem;
   align-items: center;
   grid-column: 1 / span 2; }
-
-#home-articles .articles-container > *:last-child {
-  grid-column: 2 / span 2; }
 
 #article .meta {
   display: flex;
@@ -492,7 +501,7 @@ img {
   margin-top: 3rem;
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(4, 1fr); }
+  grid-template-columns: repeat(3, 1fr); }
   #home-a .specials .fas {
     color: #36b3a8;
     padding-bottom: 0.4rem; }
