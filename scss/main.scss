@@ -2,7 +2,13 @@
 @import 'utilities';
 
 
+#click {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  
 
+}
   .v-container{
             width: 100%;
             overflow:hidden;
@@ -99,57 +105,7 @@
   text-align:center;
 }
 
-.popular-video {
-  background:  no-repeat center right / cover;
-        height: 100vh;
-        
-  //position: absolute;
-  //height: 50%;
-  //width: 50%;
-  //z-index: 3;
-  
-}
 
-.video-container {
-  //position: absolute;
-  top: 0;
-  left: 0;
-  height: 50%;
-  width: 50%;
-  //z-index: -1;
-  //opacity: .4;
-}
-
-//.video-container {
-  //position: absolute;
- // top: 0;
-  //left: 0;
-  //height: 100%;
-  //width: 100%;
-  //z-index: -1;
-  //opacity: .4;
-//}
-
-// popular books 
-//.popular-video {
-  //position: relative;
-//}
-
-//.video-container {
-  //position: absolute;
- // top: 0;
-  //left: 0;
-  //height: 100%;
-  //width: 100%;
-  //z-index: -1;
-  //opacity: .4;
-//}
-
-//.bg-video {
-  //object-fit: cover;
-//}
-
-// end of popular books
 
 /* Showcase newsgrid*/
 #showcase {
@@ -177,12 +133,12 @@
   align-items: center;
   height: 37vh;
 }
-/*.gallery {
+.gallery {
   display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 1.5rem;
       text-align: center;
-}*/
+}
 
 #showcase .showcase-content {
   z-index: 1;

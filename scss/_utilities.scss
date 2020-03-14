@@ -34,14 +34,14 @@ overflow: hidden;
   text-shadow: 2px 5px 20px #aaa;
 }
 /* end of common-title */
-/*
- gallery 
-.gallery-img {
+
+/* gallery 
+#click {
   backface-visibility: hidden;
   transition: all .5s;
 }
 
-.gallery-img:hover {
+.click:hover {
   transform: scale(1.05);
 }
 
