@@ -385,7 +385,8 @@ input[class^='btn-']:hover {
 .list li {
   padding: .5rem 0;
   border-bottom: #555 dotted 1px;
-  width: 90%; }
+  width: 90%;
+  margin-top: 2 rem; }
 
 .list li a:hover {
   color: var(--primary-color) !important; }
@@ -412,7 +413,7 @@ input[class^='btn-']:hover {
 
 .card {
   background: #fff;
-  padding: 1rem; }
+  padding: 1 rem; }
 
 .bg-dark {
   background: var(--dark-color);
@@ -792,12 +793,12 @@ img {
   font-size: 0.80rem; }
 
 #main-footer .footer-container input[type='email'] {
-  width: 90%;
+  width: 80%;
   padding: 0.5rem;
   margin-bottom: 0.5rem; }
 
 #main-footer .footer-container input[type='submit'] {
-  width: 90%; }
+  width: 80%; }
 
 #main-footer .footer-content .social .fab {
   margin-right: 1rem;
