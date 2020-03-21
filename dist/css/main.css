@@ -285,7 +285,7 @@ input[class^='btn-']:hover {
 .list li {
   padding: .5rem 0;
   border-bottom: #555 dotted 1px;
-  width: 90%; }
+  width: 80%; }
 
 .list li a:hover {
   color: var(--primary-color) !important; }
@@ -312,7 +312,8 @@ input[class^='btn-']:hover {
 
 .card {
   background: #fff;
-  padding: 1rem; }
+  padding: 1rem;
+text-align: left; }
 
 .bg-dark {
   background: var(--dark-color);
@@ -355,6 +356,7 @@ img {
   text-transform: uppercase; }
 
 #main-nav {
+  background: #139fc2;
   display: flex;
   justify-content: space-between;
   padding-top: 1rem; }

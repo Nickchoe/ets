@@ -189,10 +189,11 @@
 .l-heading {
   font-size: 2rem;
 }
-.list li {
-  padding: .5rem 0;
+.list li ul {
+ /*  padding: .5rem 0; */
   border-bottom: #555 dotted 1px;
-  width: 90%;
+  width: 0%;
+  text-align: left;
 }
 
 .list li a:hover {
@@ -314,9 +315,9 @@ img {
 
 #header {
     &-home {
-        background: $bg-image no-repeat center right / cover;
+        background: #139fc2 !important;
         height: 100vh;
-        color: #fff;
+        color: #139fc2;
 
         // Header Content
         .header-content {
