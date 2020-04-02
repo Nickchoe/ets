@@ -261,8 +261,12 @@
 .list li {
   padding: .5rem 0;
   border-bottom: #555 dotted 1px;
-  width: 90%;
-  margin-top: 2 rem;
+  
+  width: 80%; 
+  margin-top: 1rem;
+  margin-left: 1rem;
+  
+  
   
   
 }
@@ -300,7 +304,9 @@
 
 .card {
   background: #fff;
-  padding: 1 rem;
+  padding: 1rem;
+  text-align: left;
+  
 
 }
 
@@ -360,6 +366,7 @@ img {
 
 // Main Nav
 #main-nav {
+    background: #139fc2;
     display: flex;
     justify-content: space-between;
     padding-top: 1rem;
