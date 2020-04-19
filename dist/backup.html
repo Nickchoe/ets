@@ -1,6 +1,279 @@
 
+
+
+
+
+
+import React, { Component } from 'react';
+import Slide from 'react-reveal/Slide';
+
+class TimeUntil extends Component {
+
+    state = {
+        deadline: 'Dec, 16, 2018',
+        days:'0',
+        hours:'0',
+        minutes:'0',
+        seconds:'0'
+    }
+import React, { Component} from 'react';
+import Slide from 'react-reveal/slide';
+
+class TimeUntil extends Component {
+
+    state = {
+        deadline: 'Dec, 16, 2018',
+        days: '0',
+        hours: '0',
+        minutes: '0',
+        seconds: '0',
+    }
+
+getTimeUntil(deadline) {
+    const time = Date.parse(deadline) -Date.parse(new Date());
+    if(time <0) {
+        console.log('Date passed')
+    } else {
+        const seconds = Math.floor((time/1000)%60);
+        const minutes = Math.floor((time/1000/60));
+        const hours = Math.floor((time/(1000*60*60))%24);
+        const days = Math.floor(time/(1000*60*60*24));
+
+        this.setState({
+            days,
+            hours,
+            minutes,
+            seconds
+ }
+
+    componentDidMount(){
+        setInterval(()=> this.getTimeUntil(this.state.deadline),1000)
+    }
+
+
+    render() {
+        return (
+            <Slide left delay={1000}>
+                <div className="countdown_wrapper">
+                    <div className="countdown_top">
+                        Event starts in
+                </div>
+
+componentDidMount(){
+    setInterval(()=> this.getTimeUntil(this.state.deadline), 1000)
+}
+
  
+
+     <div className="countdown_bottom">
+                        <div className="countdown_item">
+                            <div className="countdown_time">
+                                {this.state.days}
+                            </div>
+                            <div className="countdown_tag">
+                                Days
+                        </div>
+                        </div>
+                        <div className="countdown_item">
+                            <div className="countdown_time">
+                                {this.state.hours}
+                            </div>
+
+
+
+                         <div className="countdown_tag">
+                                Hs
+                        </div>
+                        </div>
+                        <div className="countdown_item">
+                            <div className="countdown_time">
+                                {this.state.minutes}
+                            </div>
+                            <div className="countdown_tag">
+                                Min
+                        </div>
+                        </div>
+                        <div className="countdown_item">
+                            <div className="countdown_time">
+                                {this.state.seconds}
+                            </div>
+
+                           
+export default TimeUntil;
+
+import React from 'react';
+import Slider from "react-slick";
+
+import slide_one from '../../resources/images/slide_one.jpg';
+import slide_two from '../../resources/images/slide_two.jpg';
+import slide_three from '../../resources/images/slide_three.jpg';
+
+export default TimeUntil;
+
+
+
+
+
+    return (
+        <div 
+            className="carrousel_wrapper"
+            style={{
+                height:`${window.innerHeight}px`,
+                overflow:'hidden'
  
+
+    TOMORROW HERE 4/16
+
+</div>
+        >
+            <Slider {...settings}>
+                <div>
+                   <div 
+                        className="carrousel_image"
+                        style={{
+                            background:`url(${slide_one})`,
+                            height:`${window.innerHeight}px`
+                        }}
+                   ></div>
+                </div>
+                <d
+
+
+export default Carrousel;
+
+import React, { Component } from 'react';
+import Slide from 'react-reveal/Slide';
+
+class TimeUntil extends Component {
+
+    state = {
+        deadline: 'Dec, 16, 2018',
+        days:'0',
+        hours:'0',
+        minutes:'0',
+        seconds:'0'
+    }
+
+
+
+
+ getTimeUntil(deadline){
+        const time = Date.parse(deadline) - Date.parse(new Date());
+        if(time < 0) {
+            console.log('Date passed')
+        } else {
+            const seconds = Math.floor((time/1000)%60);
+            const minutes = Math.floor((time/1000/60)%60);
+            const hours = Math.floor((time/(1000*60*60))%24);
+            const days = Math.floor(time/(1000*60*60*24));
+
+            this.setState({
+                days,
+                hours,
+                minutes,
+                seconds
+            })
+
+
+
+    
+
+    render() {
+        return (
+            <Slide left delay={1000}>
+                <div className="countdown_wrapper">
+                    <div className="countdown_top">
+                        Event starts in
+                </div>
+                    <div className="countdown_bottom">
+                        <div className="countdown_item">
+                            <div className="countdown_time">
+                                {this.state.days}
+                            </div>
+
+
+ 
+                            <div className="countdown_tag">
+                                Days
+                        </div>
+                        </div>
+                        <div className="countdown_item">
+                            <div className="countdown_time">
+                                {this.state.hours}
+                            </div>
+                            <div className="countdown_tag">
+                                Hs
+                        </div>
+                        </div>
+                        <div className="countdown_item">
+                            <div className="countdown_time">
+                                {this.state.minutes}
+                            </div>
+    
+                            <div className="countdown_tag">
+                                Min
+                        </div>
+                        </div>
+                        <div className="countdown_item">
+                            <div className="countdown_time">
+                                {this.state.seconds}
+                            </div>
+                            <div className="countdown_tag">
+                                Sec
+                        </div>
+                        </div>
+
+    
+
+                     // About Section
+                        #about {
+                          &-a {
+                              .about-info {
+                              display: grid;
+                              grid-template-areas:
+                              'bioimage bio bio' 
+                              'aw1 aw2 aw3';
+                              grid-gap: 1.2rem;
+                          }
+                        
+                          // Grid Area
+                          .bio-image {
+                              grid-area: bioimage; 
+                              width: 300px; 
+
+
+
+                              <section id="home-d" class="text-center py-2">
+                                <div class="container">
+                                    <h2 class="section-title">
+                                        Our Past Plays
+                                    </h2>
+                                     </div>
+                            </section>
+                        
+                            <section id="contact-b" class="py-3 bg-light">
+                                <div class="container">
+                                    <div class="contact-info">
+                                        <div>
+                                            <img src="https://i.imgur.com/fucVNUB.jpg?1" title="source: imgur.com" /></a>
+                                            <h1 class="l-heading">Play BENT</h1>
+                                            <a href="bent.html" class="btn btn-primary">Bent</a>
+                                        </div>
+
+
+                                
+                        
+
+
+
+
+
+<!-- PRACTICE END HERE -->
+<!-- PRACTICE END HERE -->
+<!-- PRACTICE END HERE -->
+<!-- PRACTICE END HERE -->
+<!-- PRACTICE END HERE -->
+  
 
 
 
