@@ -1,18 +1,25 @@
+
 KEY VALUE PAIR: IF KEYS AND VALUES HAVE THE SAME NAME IN ES6.
+
+
+https://code.visualstudio.com/docs/editor/intellisense
         this.setState({
             days,
             hours,
             minutes,
+        })
+            days,
+            hours,
+            minutes,
             seconds
- }
+ 
  
  const APP = () => {
 
-    const [news, setNews] = useState ([]);
+    const [news, setNews] = useState ([days]);
     const [searchQuery, setSearchQuery] = useState ("react");
     const [url, setUrl] = useState ('http://hn...query=react')
 }
-
 return (
     <div>
         <h2>News</h2>
@@ -22,6 +29,7 @@ return (
     </form>
     </div>
 )
+
 everything is a function and there is no keyword "this".
 replace lifeCycle methods and we can do all of these without writing class components.
 searchQuery will run first and when the search button is clicked, then the url changes.
@@ -30,7 +38,7 @@ state and method:  first one is a state and second one is a method.
 we can use state in a function.
 we want the user to hit this button to run the search rather than useEffect which will run automatically.
 
-    
+
 .about-a1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -47,6 +55,9 @@ we want the user to hit this button to run the search rather than useEffect whic
         overflow:hidden;
         display:block 
 
+
+
+
 <section id="work-a" class="text-center py-3">
     <div class="container">
         <h2 class="section-title">Our Plays</h2>
@@ -60,22 +71,6 @@ we want the user to hit this button to run the search rather than useEffect whic
                             <img  src="https://i.imgur.com/5cagD2r.jpg"  /></a>
                         </div>
 
-
-
-<section id="work-a" class="text-center py-3">
-    <div class="container">
-        <h2 class="section-title">Our Plays</h2>
-        <div class="bottom-line"></div>
-        <h5 class="lead">
-            Click to learn more
-        </h5>
-        <div class="items">
-            <div class="item">
-                <a class="item-image">
-                    <img src="https://i.imgur.com/5cagD2r.jpg" /></a>  
-
-                </div>
-            </div>
 
 const APP = () => {
     const [news, setNews] = useState ([]);
@@ -135,6 +130,8 @@ KEY VALUE PAIR: IF KEYS AND VALUES HAVE THE SAME NAME IN ES6.
             minutes,
             seconds
  }
+
+ 
     
 render() {
         return (
@@ -144,7 +141,7 @@ render() {
                         Event starts in
                 </div>
 
-     
+
 componentDidMount() {
     setInterval(()=> this.getTimeUntil(this.state.deadline), 1000)
 }
