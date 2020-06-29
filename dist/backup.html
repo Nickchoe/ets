@@ -1,0 +1,815 @@
+
+KEY VALUE PAIR: IF KEYS AND VALUES HAVE THE SAME NAME IN ES6.
+
+
+https://code.visualstudio.com/docs/editor/intellisense
+        this.setState({
+            days,
+            hours,
+            minutes,
+        })
+            days,
+            hours,
+            minutes,
+            seconds
+ 
+ 
+ const APP = () => {
+
+    const [news, setNews] = useState ([days]);
+    const [searchQuery, setSearchQuery] = useState ("react");
+    const [url, setUrl] = useState ('http://hn...query=react')
+}
+return (
+    <div>
+        <h2>News</h2>
+        <form onSubmit = {handleSubmit}
+        input type = "text" value = {searchQuery}
+        <button>Search</button>
+    </form>
+    </div>
+)
+
+everything is a function and there is no keyword "this".
+replace lifeCycle methods and we can do all of these without writing class components.
+searchQuery will run first and when the search button is clicked, then the url changes.
+useEffect will run whenever there is  a change in  a state.
+state and method:  first one is a state and second one is a method.
+we can use state in a function.
+we want the user to hit this button to run the search rather than useEffect which will run automatically.
+
+
+.about-a1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+    text-align: center;
+}
+#click {
+    display: grid;
+    grid-template-columns: repeat(4,   1fr);
+    grid-gap: 1rem;
+
+    .v-container {
+        width: 100%;
+        overflow:hidden;
+        display:block 
+
+
+
+
+<section id="work-a" class="text-center py-3">
+    <div class="container">
+        <h2 class="section-title">Our Plays</h2>
+            <div class="bottom-line"></div>
+                <h5 class="lead">
+                    CLICK TO LEARN MORE
+                </h5>
+                <div class="items">
+                    <div class="item">
+                        <div class="item-image">
+                            <img  src="https://i.imgur.com/5cagD2r.jpg"  /></a>
+                        </div>
+
+
+const APP = () => {
+    const [news, setNews] = useState ([]);
+    const [searchQuery, setSearchQuery] = useState ("react");
+}
+const fetchNews = () => {
+    fetch ('http: //hn.algolia.com/... query=${searchQuery}')
+    .then (result => result.json())
+    .then (data => setNews(data.hits))
+    .then (error => console.log (error));
+};
+const handleChange = e => {
+    setSearchQuery (e.target.value);
+};
+
+return (
+    <div>
+        <h2>News</h2>
+            <form>
+                <input type= "text" value={searchQuery} onChange = {handleChange} />
+                <button> Search</button>
+            </form>
+            {news.map((n, i) =>)
+            <p key= (i)} > {n.title}</p>
+))}
+
+
+import React, { Component, useState, useEffect};
+const App = () => {
+     const [count, setCount] = useState(0);
+}
+useEffect(() => {
+       document.title = 'Clicked ${count} times' ;
+ });
+ const increment = () => {
+       setCount(count +);
+ };
+
+ 
+
+class getTimeUntil(deadline) {
+    const time = Date.parse(deadline) -Date.parse(new Date());
+    if(time <0) {
+        console.log('Date passed')
+    } else {
+        const seconds = Math.floor((time/1000)%60);
+        const minutes = Math.floor((time/1000/60));
+        const hours = Math.floor((time/(1000*60*60))%24);
+        const days = Math.floor(time/(1000*60*60*24));
+
+
+
+KEY VALUE PAIR: IF KEYS AND VALUES HAVE THE SAME NAME IN ES6.
+        this.setState({
+            days,
+            hours,
+            minutes,
+            seconds
+ }
+
+ 
+    
+render() {
+        return (
+            <Slide left delay={1000}>
+                <div className="countdown_wrapper">
+                    <div className="countdown_top">
+                        Event starts in
+                </div>
+
+
+componentDidMount() {
+    setInterval(()=> this.getTimeUntil(this.state.deadline), 1000)
+}
+ <div className="countdown_bottom">
+                        <div className="countdown_item">
+                            <div className="countdown_time">
+                                {this.state.days}
+                            </div>
+                            <div className="countdown_tag">
+                                Days
+                        </div>
+                        </div>
+                        <div className="countdown_item">
+                            <div className="countdown_time">
+                                {this.state.hours}
+                            </div>
+
+
+
+import React from 'react';
+import Slider from "react-slick";
+
+import slide_one from '../../resources/images/slide_one.jpg';
+import slide_two from '../../resources/images/slide_two.jpg';
+import slide_three from '../../resources/images/slide_three.jpg';
+ <Slider {...settings}>
+                   < 
+                        className="carrousel_image"
+                        style={{
+                            background:`url(${slide_one})`,
+                            height:`${window.innerHeight}px`
+                        }}
+
+
+render() {
+        return (
+            <Slide left delay={1000}>
+                <div className="countdown_wrapper">
+                    <div className="countdown_top">
+                        Event starts in
+                </div>
+                    <div className="countdown_bottom">
+                        <div className="countdown_item">
+                            <div className="countdown_time">
+                                {this.state.days}
+                            </div>
+
+
+ 
+                             // About Section
+                        #about {
+                          &-a {
+                              .about-info {
+                              display: grid;
+                              grid-template-areas:
+                              'bioimage bio bio' 
+                              'aw1 aw2 aw3';
+                              grid-gap: 1.2rem;
+                          }
+                        
+                          
+                          
+                              
+<!-- PRACTICE END HERE -->
+<!-- PRACTICE END HERE -->
+<!-- PRACTICE END HERE -->
+<!-- PRACTICE END HERE -->
+<!-- PRACTICE END HERE -->
+  
+
+
+
+<!-- back up starts here -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/3758333feb.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>ETS Theater Company</title>
+    </head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav id="main-nav">
+                <img src="img/logo.png" alt="ETS Theater" id="logo">
+                <ul>
+                    <li><a href="index.html" class="current">home</a></li>
+                    <li><a href="about.html"> About</a></li>
+                    <li><a href="plays.html"> Plays</a></li>
+                    <li><a href="reviews.html"> Reviews</a></li>
+                    <li><a href="contact.html"> Contact</a></li>
+                </ul>
+            </nav>
+
+
+                <div class="v-container">
+                    <video class="bg-video" id="glass" autoplay muted loop>
+
+                        <source src="../video/Lulu_latte.mp4" type="video/mp4">
+                        <source src="../video/Lulu_latte.webm" type="video/webm">
+                        Your browser is not supported
+                    </video>
+                </div>
+
+
+        </div>
+    </header>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/3758333feb.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>ETS Theater Company</title>
+</head>
+<body>
+    <header id="header-inner">
+        <div class="container">
+            <nav id="main-nav">
+                <img src="img/logo.png" alt="ETS Theater" id="logo">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="plays.html"class="current"> Plays</a></li>
+                    
+                    <li><a href="reviews.html"> Reviews</a></li>
+                    <li><a href="contact.html"> Contact</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+
+    
+    
+    <section id="work-a" class="text-center py-3">
+    <div class="container">
+        <h2 class="section-title">Our Plays</h2>
+            <div class="bottom-line"></div>
+                <h5 class="lead">
+                    CLICK TO LEARN MORE
+                </h5>
+                <div class="items">
+                    <div class="item">
+                        <div class="item-image">
+                            <img  src="https://i.imgur.com/5cagD2r.jpg"  /></a>
+                        </div>
+                       <div class="item-text">
+                              <h2 class="item-text-title">FACE</h2>
+                              <a href="bent.html" class="btn btn-secondary">Read More</a>
+                       
+                    </div>
+                       <a href="bent.html" class="btn btn-primary">Bent</a>
+                    
+                </div>
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="https://i.imgur.com/P3YUAje.jpg" title="source: imgur.com" /></a>
+                        </div>
+                       <div class="item-text">
+                        
+                           <div class="item-text-wrap">
+                         <h2 class="item-text-title">FACE</h2>
+                         <a href="bent.html" class="btn btn-secondary">Click To Read More</a>
+                              </div>
+                              </div>
+                       <a href="bent.html" class="btn btn-primary">SOUND</a>
+                    </div>
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="img/items/item4.png" alt="">
+                        </div>
+                       <div class="item-text">
+                           <div class="item-text-wrap">
+                               <h2 class="item-text-title">Bathtub</h2>
+                               <a href="bent.html" class="btn btn-secondary">Read More</a>
+                              </div>
+                              </div>
+                       <a href="bent.html" class="btn btn-primary">Bent</a>
+                    </div>
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="img/items/item4.png" alt="">
+                        </div>
+                       <div class="item-text">
+                           <div class="item-text-wrap">
+                               <h2 class="item-text-title">Bathtub</h2>
+                               <a href="bent.html" class="btn btn-secondary">Read More</a>
+                              </div>
+                              </div>
+                       <a href="bent.html" class="btn btn-primary">Bent</a>
+                    </div>
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="img/items/item5.png" alt="">
+                        </div>
+                       <div class="item-text">
+                           <div class="item-text-wrap">
+                               
+                               <h2 class="item-text-title">Prometheus</h2>
+                               <a href="bent.html" class="btn btn-secondary">Read More</a>
+                              </div>
+                       </div>
+                       <a href="bent.html" class="btn btn-primary">Bent</a>
+                    </div>
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="img/items/item6.png" alt="">
+                        </div>
+                       <div class="item-text">
+                           <div class="item-text-wrap">
+                               
+                               <h2 class="item-text-title">FACE</h2>
+                               <a href="bent.html" class="btn btn-secondary">Read More</a>
+                              </div>
+                       </div>
+                       <a href="bent.html" class="btn btn-primary">Bent</a>
+                    </div>
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="img/items/item7.png" alt="">
+                        </div>
+                       <div class="item-text">
+                           <div class="item-text-wrap">
+                               
+                               <h2 class="item-text-title">Bent</h2>
+                               <a href="bent.html" class="btn btn-secondary">Read More</a>
+                              </div>
+                       </div>
+                       <a href="bent.html" class="btn btn-primary">Bent</a>
+                    </div>
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="img/items/item8.png" alt="">
+                        </div>
+                       <div class="item-text">
+                           <div class="item-text-wrap">
+                               
+                       
+                       
+                            <h2 class="item-text-title">Prometheus</h2>
+                               <a href="bent.html" class="btn btn-secondary">Read More</a>
+                              </div>
+                       </div>
+                       <a href="bent.html" class="btn btn-primary">Bent</a>
+                    </div>
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="img/items/item9.png" alt="">
+                        </div>
+                       <div class="item-text">
+                           <div class="item-text-wrap">
+                               
+                               <h2 class="item-text-title">Bathtub</h2>
+                               <a href="bent.html" class="btn btn-secondary">Read More</a>
+                              </div>
+                       </div>
+                       <a href="bent.html" class="btn btn-primary">Bent</a>
+                    </div>
+
+                
+            </div>
+        
+    </div>
+
+    </section>
+
+    <section id="home-d" class="text-center py-2">
+        <div class="container">
+            <h2 class="section-title">
+                Our Past Plays
+            </h2>
+             </div>
+    </section>
+
+    <section id="contact-b" class="py-3 bg-light">
+        <div class="container">
+            <div class="contact-info">
+                <div>
+                    <img src="https://i.imgur.com/fucVNUB.jpg?1" title="source: imgur.com" /></a>
+                    <h1 class="l-heading">Play BENT</h1>
+                    <a href="bent.html" class="btn btn-primary">Bent</a>
+                </div>
+                <div>
+                    <img src="https://i.imgur.com/xy4gcRM.jpg?3" title="source: imgur.com" /></a>
+                    <h1 class="l-heading">Play BENT</h1>
+                    <a href="bent.html" class="btn btn-primary">Bent</a>
+                    </div>
+                <div>
+                    <img src="https://i.imgur.com/8PrlLPC.jpg" title="source: imgur.com" /></a>
+                    <h1 class="l-heading">Play BENT</h1>
+                    <a href="bent.html" class="btn btn-primary">Bent</a>
+                    </div>
+                <div>
+                    <img src="https://i.imgur.com/CrPAh9j.jpg" title="source: imgur.com" /></a>
+                    <h1 class="l-heading">Play BENT</h1>
+                    <a href="bent.html" class="btn btn-primary">Bent</a>
+                    </div>
+                <div>
+                    <img src="https://i.imgur.com/CrPAh9j.jpg" title="source: imgur.com" /></a>
+                    <h1 class="l-heading">Play BENT</h1>
+                    <a href="bent.html" class="btn btn-primary">Bent</a>
+                    
+                </div>
+                <div>
+                    <img src="https://i.imgur.com/c6CslkI.jpg?1" title="source: imgur.com" /></a>
+                    <h1 class="l-heading">Play BENT</h1>
+                    <a href="bent.html" class="btn btn-primary">Bent</a>
+                    
+                </div>
+                <div>
+                    <img src="https://i.imgur.com/92AgEON.jpg" title="source: imgur.com" /></a>
+                    <h1 class="l-heading">Play BENT</h1>
+                    <a href="bent.html" class="btn btn-primary">Bent</a>
+                    
+                </div>
+                <div>
+                    <img src="https://i.imgur.com/7Np5bSf.jpg" title="source: imgur.com" /></a>
+                    <h1 class="l-heading">Play BENT</h1>
+                    <a href="bent.html" class="btn btn-primary">Bent</a>
+                    
+                </div>
+                
+                
+                
+                <div>
+                    <img src="https://i.imgur.com/5cagD2r.jpg" title="source: imgur.com" /></a>
+                    <h1 class="l-heading">Play BENT</h1>
+                    <a href="bent.html" class="btn btn-primary">Bent</a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+     <!-- Footer -->
+  <footer id="main-footer" class="py-2">
+    <div class="container footer-container">
+      <div>
+        <img src="img/logo_light.png" alt="NewsGrid">
+        <p>Lorem,   amet consectetur adipisicing elit. Velit deserunt assumenda enim non? Ratione ipsum voluptates fuga eos earum vitae.</p>
+      </div>
+      <div>
+        <h3>Email Newsletter</h3>
+        <p>Join ETS Newsletter</p>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <input type="submit" value="Subscribe" class="btn btn-primary">
+        </form>
+      </div>
+      <div>
+        <h3>Site Links</h3>
+        <ul class="list">
+          <li><a href="#">Help & Support</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="social">
+                    
+        <i class="fab fa-facebook fa-4x"  ></i>
+        
+      </div>
+      <div>
+        <p>
+          ETS Copyright &copy; 2020, All Rights Reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- backup -->
+
+  <body>
+    <header id="header-home">
+        <div class="container">
+            <nav id="main-nav">
+                <img src="img/logo.png" alt="ETS Theater" id="logo">
+                <ul>
+                    <li><a href="index.html" class="current">home</a></li>
+                    <li><a href="about.html"> About</a></li>
+                    <li><a href="plays.html"> Plays</a></li>
+                    <li><a href="reviews.html"> Reviews</a></li>
+                    <li><a href="contact.html"> Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-content">
+                <h1>ETS Theater Company<span class="txt-type" data-wait="2000" data-words='["ETS"]'></span></h1>
+            
+            <p class="lead">
+                
+            </p>
+            <a href="play.html" class="btn-light">Where Art Meets Life</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="popular-video p-5">
+        <div class="video-container">
+            <video class="bg-video" autoplay muted loop>
+
+                <source src="../video/Lulu_latte.mp4" type="video/mp4">
+                <source src="../video/Lulu_latte.webm" type="video/webm">
+                Your browser is not supported
+            </video>
+        </div>
+    </section>
+   
+    
+    <section class="beating-heart" id="about">
+        <div class="wrapper">
+            
+            <span>We </span>
+            <svg class="heart" viewBox="0 0 32 29.6">
+            <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+            c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+            </svg>
+            <span> Theater</span>
+        </div>
+    </section>
+
+    <!-- end of old page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/3758333feb.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>ETS Theater Company</title>
+</head>
+<body>
+    <header id="header-home">
+        <div class="container">
+            <nav id="main-nav">
+                <img src="img/logo.png" alt="ETS Theater" id="logo">
+                <ul>
+                    <li><a href="index.html" class="current">home</a></li>
+                    <li><a href="about.html"> About</a></li>
+                    <li><a href="plays.html"> Plays</a></li>
+                    <li><a href="reviews.html"> Reviews</a></li>
+                    <li><a href="contact.html"> Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-content">
+                <h1>ETS Theater Company<span class="txt-type" data-wait="2000" data-words='["ETS"]'></span></h1>
+            
+            <p class="lead">
+                
+            </p>
+            <a href="play.html" class="btn-light">Where Art Meets Life</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="popular-video p-5">
+        <div class="video-container">
+            <video class="bg-video" autoplay muted loop>
+
+                <source src="../video/Lulu_latte.mp4" type="video/mp4">
+                <source src="../video/Lulu_latte.webm" type="video/webm">
+                Your browser is not supported
+            </video>
+        </div>
+    </section>
+   
+    
+    <section class="beating-heart" id="about">
+        <div class="wrapper">
+            
+            <span>We </span>
+            <svg class="heart" viewBox="0 0 32 29.6">
+            <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+            c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+            </svg>
+            <span> Theater</span>
+        </div>
+    </section>
+   
+
+    <section id="home-c" class="text-center py-2">
+        <div class="container">
+            <h2 class="section-title">
+                Our Creative Process
+            </h2>
+            <div class="bottom-line"></div>
+               <p class="lead">
+                ETS celebrates the power of theatre by spotlighting classics from the past, cultivating new works of the present and educating minds for the future.
+            </p>
+               
+               <div class="process">
+                 <div>
+                     <i class="fas fa-file-alt fa-4x process-icon my-2">
+                         <div class="process-step">1</div>
+                     </i>
+                     
+                     <h3>Concepting</h3>
+                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt accusantium quis veritatis dolore esse natus saepe, distinctio assumenda, eligendi aspernatur asperiores quidem, similique suscipit inventore tenetur! Provident cum voluptas omnis.</p>
+                 </div>  
+                 <div>
+                    <i class="fas fa-desktop fa-4x process-icon my-2">
+                        <div class="process-step">2</div>
+                    </i>
+                    
+                    <h3>Quality</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt accusantium quis veritatis dolore esse natus saepe, distinctio assumenda, eligendi aspernatur asperiores quidem, similique suscipit inventore tenetur! Provident cum voluptas omnis.</p>
+                </div>  
+                <div>
+                    <i class="fas fa-object-ungroup fa-4x process-icon my-2">
+                        <div class="process-step">3</div>
+                    </i>
+                
+                    <h3>Creativity</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt accusantium quis veritatis dolore esse natus saepe, distinctio assumenda, eligendi aspernatur asperiores quidem, similique suscipit inventore tenetur! Provident cum voluptas omnis.</p>
+                </div>  
+                <div>
+                    <i class="fas fa-thumbs-up fa-4x process-icon my-2">
+                        <div class="process-step">4</div>
+                    </i>
+                    
+                    <h3>Interaction</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt accusantium quis veritatis dolore esse natus saepe, distinctio assumenda, eligendi aspernatur asperiores quidem, similique suscipit inventore tenetur! Provident cum voluptas omnis.</p>
+                </div>  
+                
+               
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="home-c" class="text-center py-2">
+        <div class="container">
+        
+            
+                    <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                    <blockquote class="blockquote">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Mark Twain</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 my-2">
+                    <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                    <blockquote class="blockquote">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Mark Twain</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 my-2">
+                    <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                    <blockquote class="blockquote">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Mark Twain</footer>
+                    </blockquote>
+                </div>
+            
+        </div>
+    </section>
+
+    
+    <section id="home-b" class="text-center py-2">
+        <div class="stats">
+            <div>
+                <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                    <blockquote class="blockquote">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Mark Twain</footer>
+                    </blockquote>
+            </div>
+            <div>
+                <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                    <blockquote class="blockquote">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Mark Twain</footer>
+                    </blockquote>
+            </div>
+            <div>
+                <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                    <blockquote class="blockquote">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Mark Twain</footer>
+                    </blockquote>
+            </div>
+            <div>
+                <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                    <blockquote class="blockquote">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Mark Twain</footer>
+                    </blockquote>
+            </div>
+
+        
+        </div>
+    </section>
+
+     <!-- Footer -->
+  <footer id="main-footer" class="py-2">
+    <div class="container footer-container">
+      <div>
+        <img src="img/logo_light.png" alt="NewsGrid">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit deserunt assumenda enim non? Ratione ipsum voluptates fuga eos earum vitae.</p>
+      </div>
+      <div>
+        <h3>Email Newsletter</h3>
+        <p>Join ETS Newsletter.</p>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <input type="submit" value="Join" class="btn btn-primary">
+        </form>
+      </div>
+      <div>
+        <h3>Site Links</h3>
+        <ul class="list">
+          <li><a href="#">Help & Support</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="social">
+                    
+        <i class="fab fa-facebook fa-4x"  ></i>
+        
+      </div>
+      <div>
+        <p>
+          ETS Copyright &copy; 2020, All Rights Reserved
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+       
+   
+<script src="js/typewriter.js"></script>
+</body>
+
+
+<!-- javascripts, jQuery.min.js first, then Popper.js, then bootstrap.min.js -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<!-- ekko-lightbox is it in the bottom or at the head ???? -->
+<script src="node_modules/ekko-lightbox/dist/ekko-lightbox.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+</html>
