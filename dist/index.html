@@ -9,12 +9,12 @@
     <script src="https://kit.fontawesome.com/3758333feb.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <!--     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
     <!--all above is necessary for bootstrap to function in this snippet-->
     <style>
-        .v-container {
+        /* .v-container {
             width: 100%;
             overflow: hidden;
             display: block;
@@ -25,41 +25,33 @@
         #glass {
             margin-left: -620px;
             margin-top: -100px;
-        }
+        } */
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <nav id="main-nav">
-            <img src="img/logo.png" alt="ETS Theater" id="logo">
-            <ul>
-                <li><a href="index.html" class="current">home</a></li>
-
-                <li><a href="about.html">About</a></li>
-                <div class="dropdown">
-                    <button class="dropbtn current">Plays </button>
-                    <div class="dropdown-content">
-                        <a href="bent.html">Bent</a>
-                        <a href="#">Face</a>
-                        <a href="#">Bathtub</a>
-                        <a href="#">Bent</a>
-                        <a href="#">Face</a>
-                        <a href="#">Bathtub</a>
-                        <a href="#">Bent</a>
-                        <a href="#">Face</a>
-
+    <header id="header-inner">
+        <div class="container">
+            <nav id="main-nav">
+                <img src="img/logo.png" alt="ETS Theater" id="logo">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html"> About</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn current">Plays</button>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
                     </div>
-                </div>
+                    <li><a href="reviews.html" class="current"> Reviews</a></li>
+                    <li><a href="contact.html"> Contact</a></li>
+                </ul>
+            </nav>
 
-                <li><a href="reviews.html"> Reviews</a></li>
-                <li><a href="contact.html"> Contact</a></li>
-            </ul>
-        </nav>
-
-
-    </div>
-
+        </div>
+    </header>
 
     <!-- end of video -->
 
@@ -297,29 +289,23 @@
         </div>
     </footer>
 
+    <!-- javascripts, jQuery.min.js first, then Popper.js, then bootstrap.min.js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
-
-
+    <!-- ekko-lightbox is it in the bottom or at the head ???? -->
+    <script src="node_modules/ekko-lightbox/dist/ekko-lightbox.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 
     <script src="js/typewriter.js"></script>
 </body>
-
-
-<!-- javascripts, jQuery.min.js first, then Popper.js, then bootstrap.min.js -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-    crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
-    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-    crossorigin="anonymous"></script>
-<script src='https://www.google.com/recaptcha/api.js'></script>
-
-<!-- ekko-lightbox is it in the bottom or at the head ???? -->
-<script src="node_modules/ekko-lightbox/dist/ekko-lightbox.min.js"></script>
-<script src="https://www.google.com/recaptcha/api.js"></script>
 
 </html>
