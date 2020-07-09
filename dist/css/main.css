@@ -548,6 +548,8 @@ img {
   grid-template-areas: 'bioimage bio bio'  'aw1 aw2 aw3';
   grid-gap: 1.2rem; }
 
+
+
 #about-a .bio-image {
   grid-area: bioimage;
   width: 300px;
@@ -642,6 +644,16 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%; }
+
+
+  #staff .staff-image {
+    grid-area: bioimage;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    align-items: center;
+     }
 
 #contact-a .text-fields {
   display: grid;
