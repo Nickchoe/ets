@@ -264,6 +264,59 @@ input[class^='btn-']:hover {
   background: var(--secondary-color);
   color: #fff; }
 
+      /* Dropdown Button */
+      .dropbtn {
+        background-color: transparent;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+
+        color: #fff;
+        font-family: 'Dosis', sans-serif;
+        text-transform: uppercase;
+        border-bottom: 3px transparent solid;
+        padding-bottom: 0.5rem;
+        transition: border-color 0.5s;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+
+        display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #139fc2;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {}
+
 .btn-block {
   display: block;
   width: 85%;
@@ -394,14 +447,14 @@ img {
   margin-top: 3rem;
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(4, 1fr); }
   #home-a .specials .fas {
     color: #36b3a8;
     padding-bottom: 0.4rem; }
 
 #home-b .stats {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(4, 1fr); }
   #home-b .stats li {
     line-height: 2; }
     #home-b .stats li.stats-title {
@@ -494,6 +547,8 @@ img {
   display: grid;
   grid-template-areas: 'bioimage bio bio'  'aw1 aw2 aw3';
   grid-gap: 1.2rem; }
+
+
 
 #about-a .bio-image {
   grid-area: bioimage;
@@ -589,6 +644,16 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%; }
+
+
+  #staff .staff-image {
+    grid-area: bioimage;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    align-items: center;
+     }
 
 #contact-a .text-fields {
   display: grid;
