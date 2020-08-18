@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Desktop/gallery/Lecture 004 - Gallery - Part 2/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ets"
+	}
+}
